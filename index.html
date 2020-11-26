@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app = 'application'>
+<head>
+    <meta charset="UTF-8">
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <script src="script/app.js"></script>
+         <link rel="stylesheet" href="style/style.css">
+        <title>Лабораторна робота номер 3</title>
+</head>
+<body>
+<div ng-controller="AppController" align="center">
+    <label>Введіть сніданок: </label>
+    <input type="result" ng-model="products">
+    <button ng-click="showAnswer()">Чи не забагато?</button>
+        <div class="result" id="result" align="center">{{result}}</div>
+</div>
+</body>
+</html>
